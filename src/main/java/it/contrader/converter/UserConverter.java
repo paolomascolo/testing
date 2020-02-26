@@ -1,12 +1,8 @@
 package it.contrader.converter;
 
 import org.springframework.stereotype.Component;
-
-import it.contrader.dto.UsersDTO;
-import it.contrader.model.Users;
-
 /**
- * Created by paolo mascolo e marco leka on 12/1/20.
+ * Created by paolo mascolo e angelo tozza on 26/02/2020.
  */
 @Component
 public class UserConverter extends AbstractConverter<Users,UsersDTO> {

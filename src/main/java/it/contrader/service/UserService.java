@@ -9,7 +9,7 @@ import it.contrader.dto.UsersDTO;
 import it.contrader.model.Users;
 
 /**
- * Created by paolo mascolo e marco leka on 12/1/20.
+ * Created by paolo mascolo e angelo tozza on 26/02/2020.
  */
 @Service
 public class UserService extends AbstractService<Users, UsersDTO> {

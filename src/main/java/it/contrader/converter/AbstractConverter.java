@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by paolo mascolo e marco leka on 12/1/20.
+ * Created by paolo mascolo e angelo tozza on 26/02/2020.
  */
 public abstract class AbstractConverter<Entity,DTO> implements Converter<Entity,DTO> {
 

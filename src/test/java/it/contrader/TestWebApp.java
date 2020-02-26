@@ -12,6 +12,10 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
+/**
+ * Created by paolo mascolo e angelo tozza on 26/02/2020.
+ */
+
 public class TestWebApp extends EsercizioApplicationTests {
 
 	@Autowired
@@ -25,7 +29,7 @@ public class TestWebApp extends EsercizioApplicationTests {
 	}
 	
 	@Test
-	public void testUsers() throws Exception {
+	public void testReadUser() throws Exception {
 		mockMvc.perform(get("/user/read?id=0")).andExpect(status().isOk())
 											   .andExpect(content().contentType("application/json;"))
 											   .andExpect(jsonPath("$.username").value("admin"));

@@ -5,9 +5,8 @@ import org.springframework.stereotype.Repository;
 
 import it.contrader.model.Users;
 
-
 /**
- * Created by paolo mascolo e marco leka on 12/1/20.
+ * Created by paolo mascolo e angelo tozza on 26/02/2020.
  */
 @Repository
 public interface UserRepository extends CrudRepository<Users, Long>{

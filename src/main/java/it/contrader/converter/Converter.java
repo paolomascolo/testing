@@ -3,7 +3,7 @@ package it.contrader.converter;
 import java.util.List;
 
 /**
- * Created by paolo mascolo e marco leka on 12/1/20.
+ * Created by paolo mascolo e angelo tozza on 26/02/2020.
  */
 public interface Converter<Entity,DTO> {
 
