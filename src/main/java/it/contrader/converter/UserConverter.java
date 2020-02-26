@@ -1,6 +1,9 @@
 package it.contrader.converter;
 
 import org.springframework.stereotype.Component;
+
+import it.contrader.dto.UsersDTO;
+import it.contrader.model.Users;
 /**
  * Created by paolo mascolo e angelo tozza on 26/02/2020.
  */
